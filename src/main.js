@@ -7,7 +7,10 @@ import Vant from 'vant';
 import 'vant/lib/index.css';
 // 加载全局样式
 import './style/index.less'
-
+// 引入动态设置REM基准值
+import 'amfe-flexible'
+//引入dayjs
+import '@/utils/dayjs.js'
 
 Vue.config.productionTip = false
 
